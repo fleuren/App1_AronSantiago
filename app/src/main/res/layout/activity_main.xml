@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="98dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bg2" />
+
+    <Button
+        android:id="@+id/venuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="572dp"
+        android:backgroundTint="@color/MediumSeaGreen"
+        android:text="Venusaur"
+        android:textColor="@color/White"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/venuPreview"
+        android:layout_width="54dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="572dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/venu_base" />
+
+    <Button
+        android:id="@+id/charButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="520dp"
+        android:backgroundTint="@color/IndianRed"
+        android:text="Charizard"
+        android:textColor="@color/White"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/blasPreview"
+        android:layout_width="54dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="468dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/blas_base" />
+
+    <ImageView
+        android:id="@+id/charPreview"
+        android:layout_width="54dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="520dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/char_base" />
+
+    <Button
+        android:id="@+id/blasButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="468dp"
+        android:backgroundTint="@color/DeepSkyBlue"
+        android:text="Blastoise"
+        android:textColor="@color/White"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/snorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="572dp"
+        android:backgroundTint="@color/DarkSlateBlue"
+        android:text="Snorlax"
+        android:textColor="@color/White"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/laprButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="520dp"
+        android:backgroundTint="@color/MediumSlateBlue"
+        android:text="Lapras"
+        android:textColor="@color/White"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/pikaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="468dp"
+        android:backgroundTint="@color/Goldenrod"
+        android:text="Pikachu"
+        android:textColor="@color/White"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/laprPreview"
+        android:layout_width="56dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lapr_base" />
+
+    <ImageView
+        android:id="@+id/snorPreview"
+        android:layout_width="56dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="572dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/snor_base" />
+
+    <ImageView
+        android:id="@+id/pikaPreview"
+        android:layout_width="54dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="468dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pika_base" />
+
+    <View
+        android:id="@+id/divH"
+        android:layout_width="350dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="442dp"
+        android:layout_marginEnd="1dp"
+        android:background="@color/LightYellow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/divH2"
+        android:layout_width="350dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="346dp"
+        android:background="@color/LightYellow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/divV"
+        android:layout_width="3dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="356dp"
+        android:background="@color/LightYellow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/container1"
+        android:layout_width="166dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="356dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bg" />
+
+    <ImageView
+        android:id="@+id/container2"
+        android:layout_width="166dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="356dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bg" />
+
+    <ImageView
+        android:id="@+id/output"
+        android:layout_width="210dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="100dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bg" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="398dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-black"
+        android:text="FuseMon : Pokemon Fusion Calculator"
+        android:textAlignment="center"
+        android:textColor="@color/FloralWhite"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/calcButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="632dp"
+        android:backgroundTint="@color/Yellow"
+        android:text="Calculate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="632dp"
+        android:backgroundTint="@color/MediumPurple"
+        android:text="Info"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="254dp"
+        android:layout_marginTop="632dp"
+        android:backgroundTint="@color/White"
+        android:text="Reset"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
